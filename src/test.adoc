@@ -4,3 +4,5 @@ This section is stored in a different file in the source
 directory. So this should be found by the generator.
 
 The parent document just references this file by using test.adoc.
+
+This is a new paragraph.
