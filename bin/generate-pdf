@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+asciidoctor-pdf -a allow-uri-read --source-dir src --destination-dir docs src/index.adoc
