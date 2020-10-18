@@ -5,4 +5,6 @@ directory. So this should be found by the generator.
 
 The parent document just references this file by using test.adoc.
 
-This is a new paragraph.
+=== new subsection
+
+This is a new paragraph. And the rest of the text has been added in the github editor.
