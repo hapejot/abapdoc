@@ -19,14 +19,15 @@ jobs:
 
       - uses: mgred/asciidoctor-action@master
         with:
-          args: find -type f -ls
-
-      - uses: mgred/asciidoctor-action@master
-        with:
           args: bin/generate-doc
           #args: asciidoctor -a allow-uri-read --source-dir src --destination-dir docs src/index.adoc       
 
-      - uses: actions/upload-artifact@v2
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v5
         with:
-          name: web-page
-          path: docs/index.html
+          author_name: Peter Jaeckel
+          author_email: jaeckel@acm.org
+          message: "Compiled Docs"
+          add: dosc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
