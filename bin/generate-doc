@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+asciidoctor -a allow-uri-read index.adoc

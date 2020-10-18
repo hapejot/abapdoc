@@ -1,3 +1,20 @@
 = Documenting ABAP Code
 
 we are trying to document some coding using ASCIIDoctor.
+
+== Code from remote
+
+Including all the source from one code somewhere else in the public Github space.
+       
+[source,abap]
+----
+include::https://raw.githubusercontent.com/hapejot/ABAPComponents/master/src/zif_acmp_command.intf.abap[]
+----
+
+
+including just the first two lines from the same source.
+
+[source,abap]
+----
+include::https://raw.githubusercontent.com/hapejot/ABAPComponents/master/src/zif_acmp_command.intf.abap[lines=1..2]
+----
