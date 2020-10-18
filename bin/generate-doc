@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-asciidoctor -a allow-uri-read index.adoc
+asciidoctor -a allow-uri-read --source-dir src --destination-dir doc src/index.adoc
