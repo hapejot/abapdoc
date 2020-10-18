@@ -19,11 +19,11 @@ jobs:
 
       - uses: mgred/asciidoctor-action@master
         with:
-          args: find -type f
+          args: find -type f -ls
 
       - uses: mgred/asciidoctor-action@master
         with:
-          args: asciidoctor index.adoc       
+          args: bin/generate-doc
           #args: asciidoctor -a allow-uri-read --source-dir src --destination-dir docs src/index.adoc       
 
       - uses: actions/upload-artifact@v2
