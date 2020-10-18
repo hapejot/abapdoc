@@ -20,7 +20,7 @@ jobs:
       - uses: mgred/asciidoctor-action@master
         with:
           #          args: asciidoctor -a allow-uri-read --source-dir src --destination-dir docs src/index.adoc       
-          args: asciidoctor src/index.adoc       
+          args: "asciidoctor src/index.adoc"
       - uses: actions/upload-artifact@v2
         with:
           name: web-page
