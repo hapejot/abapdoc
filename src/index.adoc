@@ -19,5 +19,6 @@ including just the first two lines from the same source.
 include::https://raw.githubusercontent.com/hapejot/ABAPComponents/master/src/zif_acmp_command.intf.abap[lines=1..2]
 ----
 
+There are more code lines. But we focus on these for now.
 
 include::test.adoc[]
