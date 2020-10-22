@@ -1,5 +1,5 @@
 = Documenting ABAP Code
-:source-highlight: pygments
+:source-highlight: rouge
 
 We are trying to document some coding using ASCIIDoctor.
 
