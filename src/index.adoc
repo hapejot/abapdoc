@@ -1,4 +1,5 @@
 = Documenting ABAP Code
+:source-highlight: pygments
 
 We are trying to document some coding using ASCIIDoctor.
 
@@ -6,7 +7,7 @@ We are trying to document some coding using ASCIIDoctor.
 
 Including all the source from one code somewhere else in the public Github space.
        
-[source,abap]
+[source,abap,linenums]
 ----
 include::https://raw.githubusercontent.com/hapejot/ABAPComponents/master/src/zif_acmp_command.intf.abap[]
 ----
